@@ -48,22 +48,28 @@ The development of this project followed a systematic approach to ensure effecti
 
 Step 1: Data Acquisition
 Loaded historical stock data for Tata Motors (TATAMOTORS.NS) from Yahoo Finance covering a period from January 1, 1999, to April 22, 2024.
+
 Step 2: Data Cleaning
 Processed the data by checking for missing values and filled them using forward and backward filling methods.
 Ensured data integrity by converting date strings into datetime objects for better manipulation and analysis.
+
 Step 3: Exploratory Data Analysis (EDA)
 Examined the dataset through various statistical summaries and visualizations to understand underlying patterns and behaviors.
 Calculated additional technical indicators such as EMA, Ichimoku Cloud components, and Keltner Channels which are crucial for technical stock analysis.
+
 Step 4: Feature Engineering
 Derived new features like Pivot Points and added technical indicators to enrich the dataset.
 Analyzed correlations among the features to identify significant predictors of stock prices.
+
 Step 5: Data Transformation
 Scaled the feature set using Standard Scaler to normalize data, ensuring that the model inputs have mean zero and variance one.
 Visualized key relationships using scatter plots and correlation heatmaps to further refine the feature selection.
+
 Step 6: Model Development and Validation
 Split the data into training and testing sets to evaluate model performance.
 Utilized machine learning techniques such as Gradient Boosting and Random Forest regressors.
 Applied GridSearchCV with TimeSeriesSplit to optimize model parameters and validate the models rigorously to avoid overfitting.
+
 Step 7: Model Evaluation
 Assessed model performance using metrics like Mean Absolute Error (MAE) and R-squared.
 Evaluated the model's ability to predict future stock prices and discussed potential improvements.
