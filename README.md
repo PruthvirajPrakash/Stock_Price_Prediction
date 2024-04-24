@@ -35,13 +35,9 @@ Keltner Channels: Highlight volatility and potential trend breakouts or reversal
 While primarily focused on numerical data, the project also considers time-based categorical data:
 Date: Used to trace the stock price movements over time and understand seasonal and temporal patterns.
 Weekday: Extracted from the Date, this feature helps analyze if stock behaviors vary significantly across different days of the week.
-Features Not Considered
-Adjusted Close: Although initially included, it is often redundant alongside the Close price when not accounting for dividends and splits for predictive modeling.
-Longitude and Latitude: These are not applicable as the data pertains to financial metrics rather than geographical locations.
-
 
 Process Overview
-The development of this project followed a systematic approach to ensure effective analysis and accurate stock price predictions:
+The development of this project followed a systematic approach to ensure effective analysis and accurate stock price predictions for next day:
 
 Step 1: Data Acquisition
 Loaded historical stock data for Tata Motors (TATAMOTORS.NS) from Yahoo Finance covering a period from January 1, 1999, to April 22, 2024.
@@ -79,7 +75,7 @@ Open, High, Low, Close, Adjusted Close: These are fundamental stock market data 
 Volume: This represents the total number of shares traded during a given period and is a measure of the stock's liquidity.
 Technical Indicators such as Exponential Moving Average (EMA), Ichimoku Cloud components (Tenkan-sen, Kijun-sen, Senkou Span A & B, Chikou Span), and Keltner Channels. These are used to predict future movements based on past price action and volume.
 Target Variable
-The target variable for this analysis is the Close price of the stock. Predicting the closing price can help traders make decisions about buying or selling shares.
+The target variable for this analysis is the Open,Close, High and Low price of the stock. 
 
 Data Exploration
 Statistical Summary: Conducted a statistical analysis to understand the central tendencies and dispersions of the stock prices and technical indicators.
