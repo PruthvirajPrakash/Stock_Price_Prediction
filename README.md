@@ -13,7 +13,7 @@ This dataset consists of historical stock data for Tata Motors (TATAMOTORS.NS) s
 4. This data set does not account for all market influences such as macroeconomic indicators or global financial events, which could affect the analysis.
 5. If you wish to explore or utilize this dataset for your projects, you can access the raw and processed data files in the repository or download them from Yahoo Finance directly using the yfinance Python library.
 
-Purpose of Selecting this Dataset
+Purpose of Selecting this Dataset:
 1. The Tata Motors stock data from Yahoo Finance is instrumental for analyzing stock price movements and identifying market trends. This can aid investors in making informed decisions regarding buying or selling stocks.
 2. The aim is to develop a predictive model that forecasts future stock prices based on historical data. This involves using technical indicators that are known to reflect underlying market sentiments and dynamics.
 3. My personal interest in financial markets and algorithmic trading motivated the choice of this dataset. With these predictions, I hope to enhance trading strategies and improve investment returns.
@@ -40,7 +40,7 @@ Adjusted Close: Although initially included, it is often redundant alongside the
 Longitude and Latitude: These are not applicable as the data pertains to financial metrics rather than geographical locations.
 
 
-#Process Overview
+Process Overview
 The development of this project followed a systematic approach to ensure effective analysis and accurate stock price predictions:
 
 Step 1: Data Acquisition
@@ -71,7 +71,7 @@ Step 7: Model Evaluation
 Assessed model performance using metrics like Mean Absolute Error (MAE) and R-squared.
 Evaluated the model's ability to predict future stock prices and discussed potential improvements.
 
-#Exploratory Data Analysis (EDA)
+Exploratory Data Analysis (EDA)
 Feature Selection
 In this project, the dataset was enriched with technical indicators which serve as the features for our predictive models:
 
